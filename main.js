@@ -6,8 +6,8 @@ function isItLong(string){
   return string.length > 20;
 }
 
-let result = isItLong('kqwesdfsdfdsfdsfsdfsdfsdfu');
-//result;
+let result = isItLong('kqwesdfsdfdsfdsfu');
+result;
 
 if (result){
     console.log('That\'s a long string');
@@ -16,7 +16,7 @@ if (result){
 function isItMedium(str){
   return str.length >= 10 && str.length <= 20;
 }
-let result1 = isItMedium('FrancisEclevia');
+let result1 = isItMedium('FragggggggggggggggggncisEclevia');
 result1;
 
 if (result1){
@@ -26,7 +26,7 @@ if (result1){
 function isItShort(str){
   return str.length < 10;
 }
-let result2 = isItShort('Frdfsdfsdf');
+let result2 = isItShort('Frdfsdf');
 result2;
 
 if (result2){
@@ -52,14 +52,14 @@ if (result3 > 20){
 function instructorHeight(str){
   return str
 }
-let result4 = instructorHeight('cfghj');
+let result4 = instructorHeight('Francis');
 result4;
 
 if (result4 = 'Colin'){
   console.log('62');
-} else if (result4 = 'Mesuara'){
+} else if(result4 = 'Mesuara'){
   console.log('67');
-} else (result4 !== 'Colin' !== 'Mesuara'){
+} else if (result4 !== 'Colin' && result4 !== 'Mesuara'){
   console.log('I don\'t know that instructor!');
 }
 
