@@ -2,9 +2,66 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
+function isItLong(string){
+  return string.length > 20;
+}
 
+let result = isItLong('kqwesdfsdfdsfdsfsdfsdfsdfu');
+//result;
 
+if (result){
+    console.log('That\'s a long string');
+}
+//
+function isItMedium(str){
+  return str.length >= 10 && str.length <= 20;
+}
+let result1 = isItMedium('FrancisEclevia');
+result1;
 
+if (result1){
+    console.log('That\'s is a regular sized string!');
+}
+//*HELP*
+function isItShort(str){
+  return str.length < 10;
+}
+let result2 = isItShort('Frdfsdfsdf');
+result2;
+
+if (result2){
+    console.log('That\'s a small string');
+} else {
+    console.log('That\'s not a small string');
+}
+//
+function howLongIsMyString(str){
+  return str.length
+}
+let result3 = howLongIsMyString('RandomWord123xfghhh');
+result3;
+
+if (result3 > 20){
+  console.log('That\'s a long string!');
+} else if (result3 >= 10 && result3 <= 20){
+  console.log('That\'s a regular sized string!');
+} else if (result3 < 10){
+  console.log('That\'s a small string!')
+}
+
+function instructorHeight(str){
+  return str
+}
+let result4 = instructorHeight('cfghj');
+result4;
+
+if (result4 = 'Colin'){
+  console.log('62');
+} else if (result4 = 'Mesuara'){
+  console.log('67');
+} else (result4 !== 'Colin' !== 'Mesuara'){
+  console.log('I don\'t know that instructor!');
+}
 
 
 /**********************************
